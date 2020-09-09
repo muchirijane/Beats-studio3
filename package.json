@@ -1,0 +1,23 @@
+{
+  "name": "Beats-studio3",
+  "version": "1.0.0",
+  "description": "A website for beast by Dre Skyline Collection",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build src/style.css -o public/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muchirijane/Beats-studio3.git"
+  },
+  "keywords": [],
+  "author": "Jane Muthoni",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/muchirijane/Beats-studio3/issues"
+  },
+  "homepage": "https://github.com/muchirijane/Beats-studio3#readme",
+  "dependencies": {
+    "tailwindcss": "^1.8.5"
+  }
+}
