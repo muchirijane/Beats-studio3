@@ -18,6 +18,22 @@ html {
     box-sizing: border-box;
 }
 
-.btn-shop {
-    @apply rounded-full text-SecondaryColor px-10 flex justify-center items-center border-2 border-SecondaryColor transition duration-200 ease-in-out;
+.btn-shop-white {
+    @apply rounded-full text-SecondaryColor flex justify-center items-center border-2 border-SecondaryColor transition duration-200 ease-in-out;
+}
+
+.btn-shop-black {
+    @apply rounded-full text-SecondaryColor px-4 py-2 border-2 border-SecondaryColor transition duration-200 ease-in-out;
+}
+
+.hover-card {
+    @apply bg-lightgray absolute flex justify-center items-center flex-col rounded-lg;
+}
+
+.text-hover-card {
+    @apply text-SecondaryColor pb-4;
+}
+
+.img-headphone:hover {
+    @apply scale-x-105;
 }

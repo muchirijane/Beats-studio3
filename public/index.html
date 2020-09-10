@@ -14,10 +14,10 @@
   <title>Beats Studio3</title>
 </head>
 
-<body class="bg-darkBlack xl:min-h-screen font-bodyFont flex flex-col justify-center items-center">
-  <header class="flex justify-between z-50 w-11/12 mt-2">
-    <a href="#">
-      <svg width="82" height="82" viewBox="0 0 82 82" fill="none" xmlns="http://www.w3.org/2000/svg">
+<body class="bg-darkBlack  font-bodyFont flex flex-col  items-center relative xl:h-screen">
+  <header class="flex justify-between z-50 w-11/12 mt-5 mb-5 ">
+    <a href="index.html" class="inline w-1/5 transform hover:scale-95 duration-200 ease-in-out" aria-label="beats logo">
+      <svg viewBox="0 0 82 82" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-10 md:h-12 lg:h-16 inline">
         <path
           d="M40.6 52.8C47.3 52.8 52.8 47.3 52.8 40.6C52.8 33.9 47.3 28.4 40.6 28.4C33.9 28.4 28.4 33.9 28.4 40.6C28.4 47.3 33.9 52.8 40.6 52.8Z"
           fill="#FBF4EE" />
@@ -25,45 +25,65 @@
           d="M40.6 0C36.5 0 32.5 0.600018 28.8 1.80002V23.1C32.1 20.9 36.1 19.6 40.4 19.6C52.1 19.6 61.5 29.1 61.5 40.7C61.5 52.4 52 61.8 40.4 61.8C28.7 61.8 19.3 52.3 19.3 40.7V39.4V6.10001C7.7 13.2 0 26 0 40.6C0 63 18.2 81.2 40.6 81.2C63 81.2 81.2 63 81.2 40.6C81.2 18.2 63 0 40.6 0Z"
           fill="#FBF4EE" />
       </svg>
+      <span class="opacity-0 text-xs hidden">Beats by Dre</span>
     </a>
 
-    <a href="#" class="btn h-16 btn-shop xl:text-2xl hover:bg-white hover:text-gray-900">
+    <a href="#"
+      class="relative btn xxl:px-10 lg:px-6 lg:py:2 lg:text-2xl  xxl:h-16 btn-shop-white xl:text-2xl hover:bg-SecondaryColor hover:text-gray-900 px-4 text-sm sm:text-base md:text-xl">
       Shop Now
+      <span class="absolute right-0 bottom-0 h-4 w-4 rounded-full bg-SecondaryColor animate-ping"></span>
     </a>
   </header>
 
-  <div class="absolute top-0 z-30">
-    <svg width="1110" height="1024" viewBox="0 0 1110 1024" fill="none" xmlns="http://www.w3.org/2000/svg"
-      class=" ml-auto mr-auto block">
+  <div class="absolute z-30 w-full top-p40 md:top-20 xl:w-40 xxl:w-2/4">
+    <svg viewBox="0 0 465 465" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path
-        d="M555 721.774C646.589 721.774 721.774 646.589 721.774 555C721.774 463.412 646.589 388.227 555 388.227C463.412 388.227 388.227 463.412 388.227 555C388.227 646.589 463.412 721.774 555 721.774Z"
+        d="M232.5 302.365C270.868 302.365 302.365 270.868 302.365 232.5C302.365 194.132 270.868 162.636 232.5 162.636C194.132 162.636 162.636 194.132 162.636 232.5C162.636 270.868 194.132 302.365 232.5 302.365Z"
         fill="#2F2E2E" />
       <path
-        d="M555 0C498.953 0 444.273 8.20222 393.695 24.6062V315.776C438.805 285.702 493.485 267.931 552.266 267.931C712.204 267.931 840.702 397.796 840.702 556.367C840.702 716.306 710.838 844.803 552.266 844.803C392.328 844.803 263.83 714.939 263.83 556.367V538.596V83.3868C105.259 180.443 0 355.419 0 555C0 861.207 248.793 1110 555 1110C861.207 1110 1110 861.207 1110 555C1110 248.793 861.207 0 555 0Z"
+        d="M232.5 0C209.021 0 186.115 3.43607 164.926 10.308V132.285C183.824 119.686 206.73 112.241 231.355 112.241C298.356 112.241 352.186 166.644 352.186 233.073C352.186 300.074 297.783 353.904 231.355 353.904C164.353 353.904 110.523 299.501 110.523 233.073V225.628V34.9323C44.0948 75.5912 0 148.892 0 232.5C0 360.776 104.224 465 232.5 465C360.776 465 465 360.776 465 232.5C465 104.224 360.776 0 232.5 0Z"
         fill="#2F2E2E" />
     </svg>
+
   </div>
 
   <main class="z-50 relative flex justify-center flex-col items-center">
 
-    <h1 class="text-SecondaryColor text-titlexxl font-titleFont">
-      Beats Studio3
+    <h1
+      class="text-SecondaryColor font-titleFont text-4xl text-center px-6 sm:text-6xl lg:text-largeTitle md:text-6xl xl:text-titlexxl xl:leading-tight font-black xxxl:text-titleHuge bigdesktop:text-titlextra">
+      Beats Studio3 collection
     </h1>
 
-    <section class="md:flex md:justify-center md:items-center relative top-0">
-      <div>
-        <img src="img/black-golden-headphone.svg" alt="black-golden-headphone">
-        <div class="bg-white inline-block p-4">
-          <p class="text-lightgray text-4xl">Golden Beats studio3</p>
-          <a href="#" class="btn text-largeText text-lightgray">
-            Shop now </a>
+    <section class="flex flex-col justify-center items-center relative top-0 xl:flex-row md:mb-6 xl:mx-8">
+      <div class="xxl:h-80 w-4/5 relative xl:h-64">
+        <img src=" img/black-golden-headphone.svg" alt="black-golden-headphone" loading="lazy" class="img-headphone">
+        <div
+          class="hover-card hover:opacity-100 lg:p-6 xl:top-20 xl:p-4  top-50 p-4 absolute xl:opacity-0 xl:hover:opacity-100">
+          <h2 class="  text-hover-card sm:text-2xl md:text-3xl ">Golden Beats studio3</h3>
+            <a href="#"
+              class="btn btn-shop-black  sm:text-lg md:text-xl xl:text-xl hover:text-lightgray hover:bg-SecondaryColor">
+              Shop now </a>
         </div>
       </div>
-      <div>
-        <img src="img/green-headphone.svg" alt="forest-green-headphone">
+      <div class="xxl:h-80 w-4/5 relative xl:h-64">
+        <img src="img/green-headphone.svg" alt="forest-green-headphone" loading="lazy">
+        <div
+          class="hover-card hover:opacity-100 lg:p-6 xl:top-20 xl:p-4  top-50 p-4 absolute xl:opacity-0 xl:hover:opacity-100">
+          <h2 class="  text-hover-card sm:text-2xl md:text-3xl ">Green Beats studio3</h3>
+            <a href="#"
+              class="btn btn-shop-black  sm:text-lg md:text-xl xl:text-xl hover:text-lightgray hover:bg-SecondaryColor">
+              Shop now </a>
+        </div>
       </div>
-      <div>
-        <img src="img/pink-headphone.svg" alt="pink-headphone">
+      <div class="xxl:h-80 w-4/5 relative xl:h-64">
+        <img src="img/pink-headphone.svg" alt="pink-headphone" loading="lazy">
+        <div
+          class="hover-card hover:opacity-100 lg:p-6 xl:top-20 xl:p-4  top-50 p-4 absolute xl:opacity-0 xl:hover:opacity-100">
+          <h2 class="  text-hover-card sm:text-2xl md:text-3xl ">Pink Beats studio3</h3>
+            <a href="#"
+              class="btn btn-shop-black  sm:text-lg md:text-xl xl:text-xl hover:text-lightgray hover:bg-SecondaryColor">
+              Shop now </a>
+        </div>
       </div>
     </section>
 

@@ -2,10 +2,20 @@ module.exports = {
   purge: [],
   theme: {
     extend: {
+      screens: {
+        lmd: '425px',
+        xxl: '1400px',
+        xxxl: '1600px',
+        bigdesktop: '1920px'
+      },
       fontSize: {
+        '8xl': '5rem',
         largeTitle: '6rem',
         largeText: '1.75rem',
-        titlexxl: '9rem'
+        titlexl: '7rem',
+        titlexxl: '8rem',
+        titleHuge: '10rem',
+        titlextra: '11rem'
 
       },
       colors: {
@@ -22,12 +32,19 @@ module.exports = {
         bodyFont: ['Nunito'],
         titleFont: ['Roboto']
       },
+      backgroundImage: {
+        'beats-logo': 'img/beats-logo-bg.svg',
+      },
       boxShadow: {
         btnShadow: '0px 5px 30px rgba(255, 171, 94, 0.15)',
         imgShadow: '0px 6px 40px rgba(0, 0, 0, 0.25)'
       },
-      backgroundImage: {
-        'golden-headphone': 'url(public/img/black-golden-headphone.svg)',
+      inset: {
+        '-5': '-0.3rem',
+        '-20': '-1.25rem',
+        '20': '20rem',
+        '50': '50%',
+        'p40': '40%',
       }
     },
   },
