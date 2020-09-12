@@ -37,3 +37,15 @@ html {
 .img-headphone:hover {
     @apply scale-x-105;
 }
+
+.btn-cart {
+    @apply text-lg py-2 px-4 text-lightgray bg-btnBg rounded-full shadow-btnShadow transform duration-200 ease-in-out;
+}
+
+.btn-cart:hover {
+    @apply bg-lightgray text-btnBg translate-y-1;
+}
+
+.btn-cart:focus {
+    @apply text-btnBg bg-lightgray;
+}

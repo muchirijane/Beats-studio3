@@ -39,7 +39,7 @@ module.exports = {
         'beats-logo': 'img/beats-logo-bg.svg',
       },
       boxShadow: {
-        btnShadow: '0px 5px 20px rgba(253, 230, 210, 0.21);',
+        btnShadow: '0px 5px 20px rgba(170, 77, 0, 0.32)',
         imgShadow: '0px 6px 40px rgba(0, 0, 0, 0.25)'
       },
       inset: {
@@ -48,6 +48,12 @@ module.exports = {
         '20': '20rem',
         '50': '50%',
         'p40': '40%',
+      },
+      spacing: {
+        '70': '20rem',
+        '75': '30rem',
+        '80': '36rem',
+        '85': '45rem',
       }
     },
   },
